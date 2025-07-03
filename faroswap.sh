@@ -71,9 +71,9 @@ const logger = {
   countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
-    console.log(`----------------------`);
-    console.log(`  FAROSWAP BY MOARU   `);
-    console.log(`----------------------${colors.reset}`);
+    console.log(`----------------------------`);
+    console.log(`  FAROSWAP BY AIRDROP ALC   `);
+    console.log(`----------------------------${colors.reset}`);
     console.log();
   }
 };
@@ -391,9 +391,9 @@ fi
 
 while true; do
     clear
-    echo -e "${CYAN}===============================${NC}"
-    echo -e "${CYAN}       FAROSWAP BY MOARU       ${NC}"
-    echo -e "${CYAN}===============================${NC}"
+    echo -e "${CYAN}=====================================${NC}"
+    echo -e "${CYAN}       FAROSWAP BY AIRDROP ALC       ${NC}"
+    echo -e "${CYAN}=====================================${NC}"
     echo -e "Please choose an option:"
     echo -e "1. ${GREEN}Install Dependencies${NC} (Run this first)"
     echo -e "2. ${GREEN}Configure Wallet${NC} (Set your private key)"
