@@ -72,7 +72,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log(`----------------------`);
-    console.log(`  Faroswap Auto Bot   `);
+    console.log(`  FAROSWAP BY MOARU   `);
     console.log(`----------------------${colors.reset}`);
     console.log();
   }
