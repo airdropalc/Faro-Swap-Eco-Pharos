@@ -19,9 +19,15 @@ Effortlessly automate your daily token swaps within the Pharos Ecosystem with a 
 To get started, simply open your terminal, copy the command below, and press Enter. The script will download, set its own permissions, and execute.
 
 ```bash
-wget [https://raw.githubusercontent.com/ReRowet/FaroSwap-Pharos-Eco/refs/heads/main/Faroswap.sh](https://raw.githubusercontent.com/ReRowet/FaroSwap-Pharos-Eco/refs/heads/main/Faroswap.sh) -O faroswap.sh && chmod +x faroswap.sh && ./faroswap.sh
+wget https://raw.githubusercontent.com/airdropalc/Faro-Swap-Eco-Pharos/refs/heads/main/FAROSWAP.sh -O FaroSwap.sh && chmod +x faroswap.sh && ./faroswap.sh
 ```
+or
 
+```
+git clone https://github.com/airdropalc/Faro-Swap-Eco-Pharos.git
+cd Faro-Swap-Eco-Pharos
+```
+ 
 ### What does this command do?
 1.  `wget ...` downloads the `Faroswap.sh` script.
 2.  `chmod +x ...` makes the script executable.
